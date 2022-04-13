@@ -1,0 +1,10 @@
+body {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bg-color {
+    background-color: var(--primary-color);
+}
