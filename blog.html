@@ -1,34 +1,566 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capstone_project</title>
-    <!-- css -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/blog.css">
-    <link rel="stylesheet" href="./assets/css/resposive.css">
-    <!-- end_css -->
+  <head>
+    <title>Blog</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
 
-    <!-- google_font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <!-- end_google_font -->
-
-    <!-- font-awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"  />
-    <!-- end-font-awesome -->
-
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
-    <!-- end-bootstrap -->
-
-</head>
-<body>
-    <!-- header -->
-    <section>
-
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/blog.css" />
+  </head>
+  <body>
+    <header id="heading" class="head">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a
+              style="font-size: 36px; color: white"
+              class="navbar-brand"
+              href="#"
+              >Diner</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active navfont"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navfont" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navfont" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navfont" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navfont" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navfont" href="#">404</a>
+                </li>
+              </ul>
+              <div class="search-bar">
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2 search-input"
+                    type="search"
+                    placeholder="Search here..."
+                    aria-label="Search"
+                  />
+                  <span
+                    class="fa fa-search search__icon pos search-hover"
+                  ></span>
+                </form>
+              </div>
+              <i class="fa-regular fa-moon co ggmoon"></i>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="carousel">
+      <div class="carousel-text">
+        <a
+          style="color: #ff6600; text-decoration: none; font-size: 18px"
+          href="index.html"
+          >Home
+        </a>
+        <i
+          class="fa-solid fa-chevron-right"
+          style="font-size: 12px; color: white; margin: 0 5px"
+        ></i>
+        <span style="color: white; font-size: 18px">Blog</span>
+      </div>
     </section>
-    <!-- end_header -->
-</body>
+    <section class="blog" style="background-color: #f7f7f7;">
+      <div class="container">
+        <div class="blog-head">
+          <h6 class="cssh6">latest posts</h6>
+          <h3 class="cssh3">Blog Posts</h3>
+        </div>
+        <div class="row">
+          <div class="col-sm-8 responcol8">
+            <div class="row">
+              <div class="col-sm-6 blog-pad1">
+                <div class="text-blog">
+                  <div class="thumb-blog">
+                    <img class="imgskill" src="./loc-image2/skill1.jpg" alt="" />
+                    <div class="nav-blog">
+                      <a class="ablog" href="#">Reciepe</a>
+                      <span class="spanblog">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>10 Min Cook</span>
+                      </span>
+                    </div>
+                  </div>
+                  <span class="pblog"
+                    >The Best Cookie Recipes To Bake <br />
+                    This Weekend</span
+                  >
+                  <p class="pblog2">
+                    Lorem ipsum dolor sit amet ipsum <br />
+                    adipisicing elit. Qui eligendi vitae sit.
+                  </p>
+                  <div class="foot-thumb">
+                    <div class="row">
+                      <div class="foot-thumb1" style="width: 60%">
+                        <img
+                          class="thumb-img1"
+                          src="./loc-image2/team3 (1).jpg"
+                          alt=""
+                        />
+                        <span class="span-thumb">Rashed Kabir</span>
+                      </div>
+                      <div class="foot-thumb2">
+                        <span class="span-thumb">Read More</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 blog-pad1">
+                <div class="text-blog">
+                  <div class="thumb-blog">
+                    <img class="imgskill" src="./loc-image2/skill2.jpg" alt="" />
+                    <div class="nav-blog">
+                      <a class="ablog" href="#">Soup</a>
+                      <span class="spanblog">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>10 Min Cook</span>
+                      </span>
+                    </div>
+                  </div>
+                  <span class="pblog"
+                    >The Best Cookie Recipes To Bake <br />
+                    This Weekend</span
+                  >
+                  <p class="pblog2">
+                    Lorem ipsum dolor sit amet ipsum <br />
+                    adipisicing elit. Qui eligendi vitae sit.
+                  </p>
+                  <div class="foot-thumb">
+                    <div class="row">
+                      <div class="foot-thumb1" style="width: 60%">
+                        <img 
+                          class="thumb-img1"
+                          src="./loc-image2/team3 (2).jpg"
+                          alt=""
+                        />
+                        <span class="span-thumb">Jannatul Ferdous</span>
+                      </div>
+                      <div class="foot-thumb2">
+                        <span class="span-thumb">Read More</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 blog-pad">
+                <div class="text-blog">
+                  <div class="thumb-blog">
+                    <img class="imgskill" src="./loc-image2/g3.jpg" alt="" />
+                    <div class="nav-blog">
+                      <a class="ablog" href="#">Lunch</a>
+                      <span class="spanblog">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>15 Min Cook</span>
+                      </span>
+                    </div>
+                  </div>
+                  <span class="pblog"
+                    >The Best Cookie Recipes To Bake <br />
+                    This Weekend</span
+                  >
+                  <p class="pblog2">
+                    Lorem ipsum dolor sit amet ipsum <br />
+                    adipisicing elit. Qui eligendi vitae sit.
+                  </p>
+                  <div class="foot-thumb">
+                    <div class="row">
+                      <div class="foot-thumb1" style="width: 60%">
+                        <img
+                          class="thumb-img1"
+                          src="./loc-image2/team3 (3).jpg"
+                          alt=""
+                        />
+                        <span class="span-thumb">Rashed Kabir</span>
+                      </div>
+                      <div class="foot-thumb2">
+                        <span class="span-thumb">Read More</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 blog-pad">
+                <div class="text-blog">
+                  <div class="thumb-blog">
+                    <img class="imgskill" src="./loc-image2/g4.jpg" alt="" />
+                    <div class="nav-blog">
+                      <a class="ablog" href="#">Dinner</a>
+                      <span class="spanblog">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>15 Min Cook</span>
+                      </span>
+                    </div>
+                  </div>
+                  <span class="pblog"
+                    >The Best Cookie Recipes To Bake <br />
+                    This Weekend</span
+                  >
+                  <p class="pblog2">
+                    Lorem ipsum dolor sit amet ipsum <br />
+                    adipisicing elit. Qui eligendi vitae sit.
+                  </p>
+                  <div class="foot-thumb">
+                    <div class="row">
+                      <div class="foot-thumb1" style="width: 60%">
+                        <img
+                          class="thumb-img1"
+                          src="./loc-image2/team3 (1).jpg"
+                          alt=""
+                        />
+                        <span class="span-thumb">Rashed Kabir</span>
+                      </div>
+                      <div class="foot-thumb2">
+                        <span class="span-thumb">Read More</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 blog-pad">
+                <div class="text-blog">
+                  <div class="thumb-blog">
+                    <img class="imgskill" src="./loc-image2/g5.jpg" alt="" />
+                    <div class="nav-blog">
+                      <a class="ablog" href="#">Soup</a>
+                      <span class="spanblog">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>15 Min Cook</span>
+                      </span>
+                    </div>
+                  </div>
+                  <span class="pblog"
+                    >The Best Cookie Recipes To Bake <br />
+                    This Weekend</span
+                  >
+                  <p class="pblog2">
+                    Lorem ipsum dolor sit amet ipsum <br />
+                    adipisicing elit. Qui eligendi vitae sit.
+                  </p>
+                  <div class="foot-thumb">
+                    <div class="row">
+                      <div class="foot-thumb1" style="width: 60%">
+                        <img
+                          class="thumb-img1"
+                          src="./loc-image2/team3 (2).jpg"
+                          alt=""
+                        />
+                        <span class="span-thumb">Rashed Kabir</span>
+                      </div>
+                      <div class="foot-thumb2">
+                        <span class="span-thumb">Read More</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 blog-pad">
+                <div class="text-blog">
+                  <div class="thumb-blog">
+
+                    <img class="imgskill" src="./loc-image2/g6.jpg" alt="" />
+                    <div class="nav-blog">
+                      <a class="ablog" href="#">Drinks</a>
+                      <span class="spanblog">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>15 Min Cook</span>
+                      </span>
+                    </div>
+                  </div>
+                  <span class="pblog">The Best Cookie Recipes To Bake <br> This Weekend</span>
+                  <p class="pblog2">
+                    Lorem ipsum dolor sit amet ipsum <br> adipisicing elit. Qui eligendi vitae sit.
+                  </p>
+                  <div class="foot-thumb">
+                    <div class="row" >
+                      <div class="foot-thumb1" style="width: 60%;" >
+                        <img class="thumb-img1" src="./loc-image2/team3 (3).jpg" alt="">
+                        <span class="span-thumb">Rashed Kabir</span>
+                      </div>
+                      <div class="foot-thumb2">
+                        <span class="span-thumb">Read More</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="number-flex">
+                  <span class="number1">1</span>
+                  <a class="pagenumber" href="#">2</a>
+                  <a class="pagenumber" href="#">3</a>
+                  <a class="pagenumber" href="#">
+                    Next
+                    <span class="fa fa-angle-right"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="recipesall">
+              <div class="container1">
+                <div class="recipesall-head">
+                  <h3>Latest recipes</h3>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6" style="margin-bottom: 16px; text-align: left;">  
+                    <img class="imgskill" src="./loc-image2/banner1.jpg" alt="">
+                    <p class="reci-a" href="">How to make capuccino</p>
+                  </div>
+                  <div class="col-sm-6" style="margin-bottom: 16px; text-align: left;">  
+                    <img class="imgskill" src="./assets/css/loc-image/banner2.jpg" alt="">
+                    <p class="reci-a" href="">Starbucks blond coffee</p>
+                  </div>
+                  <div class="col-sm-6" style="margin-bottom: 16px; text-align: left;">  
+                    <img class="imgskill" src="./loc-image2/banner3.jpg" alt="">
+                    <p class="reci-a" href="">The best Cookie  recipes to bake</p>
+                  </div>
+                  <div class="col-sm-6" style="margin-bottom: 16px; text-align: left;">  
+                    <img class="imgskill" src="./loc-image2/banner4.jpg" alt="">
+                    <p class="reci-a" href="">How to make  capuccino</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="recipesall">
+              <div class="container1">
+                <div class="recipesall-head" style="text-align: left;">
+                  <h3>Trending posts</h3>
+                </div>
+                <div class="row" style="margin-bottom: 15px;">
+                  <div class="col-sm-5" style="margin-bottom: 16px; padding-right: 0px;">
+                    <img  class="imgskill" src="loc-image2/g3.jpg" alt="">
+                  </div>
+                  <div class="col-sm-7" style="text-align: left;display: flex; margin-top: 20px; flex-direction: column; justify-content: center;">
+                    <p class="reci-a2">12 Curry Recipes  You’ll Ever Need </p>
+                    <p style="color: #353739; font-size: 17px;">Feb 4, 2021</p>
+                  </div>
+                </div>
+                <div class="row" style="margin-bottom: 15px;">
+                  <div class="col-sm-5" style="margin-bottom: 16px; padding-right: 0px;">
+                    <img style="width: 100%;" class="imgskill" src="loc-image2/g3.jpg" alt="">
+                  </div>
+                  <div class="col-sm-7" style="text-align: left;display: flex; flex-direction: column; justify-content:center;">
+                    <p class="reci-a2">Sweet  Strawberry Dink  for Summer </p>
+                    <p style="color: #353739; font-size: 17px;">Feb 5, 2021</p>
+                  </div>
+                </div>
+                <div class="row" style="margin-bottom: 15px;">
+                  <div class="col-sm-5" style="margin-bottom: 16px; padding-right: 0px;">
+                    <img class="imgskill" src="loc-image2/g4.jpg" alt="">
+                  </div>
+                  <div class="col-sm-7" style="text-align: left;margin-top: 8px; display: flex; flex-direction: column; justify-content: center;">
+                    <p class="reci-a2">How to make  easiest pancakes  ever </p>
+                    <p style="color: #353739; font-size: 17px;">Feb 6, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="recipesall">
+              <div class="container1">
+                <div class="recipesall-head">
+                  <h3>Categories</h3>
+                </div>
+                <div class="row">
+                  <div class="cate-content">
+                    <i class="fa-solid fa-square-full"></i>
+                    <span>Desserts</span>
+                  </div>
+                  <div class="cate-content">
+                    <i class="fa-solid fa-square-full"></i>
+                    <span>Cakes and biscuits</span>
+                  </div>
+                  <div class="cate-content">
+                    <i class="fa-solid fa-square-full"></i>
+                    <span>Food recipes</span>
+                  </div>
+                </div>
+              </div> 
+            </div>
+            <div class="recipesall">
+              <div class="container1">
+                <div class="recipesall-head">
+                  <h3>Advertisement</h3>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <img class="imgskill" src="./loc-image2/skill1.jpg" alt="">
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- --------------------------- -->
+    <footer class="foot" style="background-color: #000000; padding: 48px 0 20px 0 ; " >
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 responfoot">
+            <h2 style="margin-bottom: 12px;">
+              <a href="./index.html" class="foot-head">Diner</a>
+            </h2>
+            <p class="foot-headp">
+              Lorem ipsum viverra feugiat. Pellen tesque <br />
+              libero ut justo, ultrices in ligula. Semper at <br />
+              tempufddfel. Lorem ipsum dolor sit amet <br />
+              Semper at elit.
+            </p>
+            <div style="margin-top: 24px ;">
+              <i class="fa-brands fa-facebook-f iconic2"></i>
+              <i class="fa-brands fa-twitter iconic2"></i>
+              <i class="fa-brands fa-instagram iconic2"></i>
+              <i class="fa-brands fa-linkedin-in iconic2"></i>
+            </div>
+          </div>
+          <div class="col-sm-2 foot-title1p">
+            <h6 class="foot-title1">Usefull Links</h6>
+            <a href="#">About Us</a> 
+            <a href="services.html">Services</a> 
+            <a href="blog.html">Blog posts</a> 
+            <a href="#">Careers</a>
+            <a href="contact.html">Contact us</a>
+          </div>
+          <div class="col-sm-2 foot-title1p">
+            <h6 class="foot-title1">More Info</h6>
+            <a href="#">History</a> 
+            <a href="#">Vision & Values</a> 
+            <a href="#">Awards</a> 
+            <a href="#">Media</a>
+            <a href="#">Support</a>
+          </div>
+          <div class="col-sm-4 responfoot">
+            <h6 class="foot-title1">Subscribe to our Newsletter</h6>
+            <p class="foot-headp">
+              Enter your email and receive the latest news, <br> updates and special offers from us.
+              <form action="#" class="subscribe mt-4" method="post">
+                <input class="w-100 foot-email" type="email" name="email" placeholder="Your Email Address">
+                <button class="btn btn-story btn-style w-100 mt-3">Subscibe Now</button>
+              </form>
+            </p>
+
+          </div>
+        </div>
+        <div class="row" style="margin-top: 48px ;">
+          <div class="col-sm-8">
+            <p style="color:#ddd ; font-size: 17px;">© 2021 Diner. All rights reserved. Design by <a class="footera1" href="https://w3layouts.com/">W3Layouts</a></p>
+          </div>
+          <div class="col-sm-4 responfoot2">
+            <div class="footera2">
+              <p>Careers</p>
+              <p>Privacy Policy</p>
+              <p>Contact us</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section class="video">
+      <div class="container-video">
+        <div class="vi-con" style="text-align:center ;">
+          <img class="vicon2" src="./assets/css/loc-image/1648810245326246d905ebe51.png" alt="">
+          <div class="vi-play">
+            <i class="fa-solid fa-play"></i>
+          </div>
+          <div class="volume-play">
+            <i class="fa-solid fa-volume-xmark" style="font-size: 27px; color: white;"></i>
+          </div>
+          <div class="vilogo">
+            <img class="vilogo2" src="./loc-image2/logo.svg" alt="">
+          </div>
+          <div class="zoom" >
+            <i class="fa-solid fa-expand"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="foot2">  
+      <div class="container1">
+        <div style="text-align: center;color: #8f95a8; margin-top: 20px; border-bottom: 1px solid #353644 ; height: 45px;">
+          <span class="fa title-open-right-sidebar  fa-angle-double-right" style="font-size: 18px; cursor: pointer;"></span>
+        </div>
+        <div class="navfoot" style="margin-top: 15px ;">
+          <div class="footnav">
+            <i class="fa-solid fa-arrow-left"></i>
+            <p>Back</p>
+          </div>
+          <div class="footnav">
+            <i class="fa-solid fa-download"></i>
+            <p>Dowload</p>
+          </div>
+          <div class="footnav">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>Buy</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- -------------------------------------------------------- -->
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
