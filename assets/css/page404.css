@@ -1,0 +1,101 @@
+.w3l-innerpage {
+    background-image: linear-gradient(to right, rgb(236 98 6 / 98%),
+            rgb(5 3 0 / 83%)),
+        url('../images/banner2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: inherit;
+    background-attachment: fixed;
+    min-height: 350px;
+}
+
+.w3l-innerpage ul.breadcrumbs-custom-path {
+    padding-top: 81px;
+}
+
+.w3l-innerpage .breadcrumbs-custom-path li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.w3l-innerpage .breadcrumbs-custom-path li a {
+    color: #ff6600;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.w3l-innerpage .breadcrumbs-custom-path li.active {
+    color: #fff;
+}
+
+.error-block {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.w3l-error-grid h1 {
+    font-weight: 700;
+    font-size: 130px;
+    color: #232121;
+    letter-spacing: 5px;
+}
+
+.w3l-error-grid h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #232121;
+    font-weight: 600;
+}
+
+.w3l-error-grid .form-inline.search-form {
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+}
+
+.w3l-error-grid .form-control {
+    color: rgba(22, 28, 45, 0.7);
+    padding: 12px 120px 12px 25px;
+    font-size: 18px;
+    line-height: 28px;
+    height: 55px;
+    background: #f7f7f7;
+    border-radius: 6px;
+    display: block;
+    font-weight: 500;
+}
+
+.w3l-error-grid button.btn.search {
+    color: #fff;
+    background: #ff6600;
+    font-size: 18px;
+    padding: 0 40px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 55px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.w3l-error-grid .back-button {
+    font-weight: 600;
+    display: inline-block;
+    font-size: 18px;
+    color: #232121;
+    letter-spacing: 0;
+}
+
+[type="search"] {
+    outline-offset: -2px;
+    -webkit-appearance: none;
+}
