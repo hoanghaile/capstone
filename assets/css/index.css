@@ -1093,3 +1093,390 @@ section.w3_stats {
 #w3lDemoBar .demo-btns span.w3l-icon {
     display: block;
 }
+/* ------------------------------------------------------------------- */
+.fixx1{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.fixx1 a{
+    text-decoration: none;
+    color: white;
+    margin-right:10px ;
+    
+}
+/* -------------------------------------------------- */
+.vicon2 {
+    width: 70%;
+    height: 500px;
+  }
+  .vilogo {
+    height: 11px;
+    width: 84px;
+    text-align: center;
+    background-color: white;
+    border-radius: 6px 0 0 6px;
+    position: relative;
+    position: absolute;
+    bottom: 10px;
+    right: 15%;
+  }
+  .vilogo2 {
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    top: 0;
+    left: 17%;
+    cursor: pointer;
+  }
+  .volume-play {
+    display: flex;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 30%;
+    cursor: pointer;
+  }
+  .vi-con {
+    position: relative;
+  }
+  .vi-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  .vi-play i {
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 20px;
+    margin-right: 5px;
+    background-color: rgba(157, 157, 157, 0.5);
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .zoom{
+    font-size: 27px;
+    bottom: -5px;
+    right: 25%;
+    position: absolute;
+    cursor: pointer;
+   
+  }
+  .zoom i {
+    color: white;
+  }
+  .foot-head {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    /* margin-bottom: 50px; */
+  }
+  .foot-head:hover {
+    color: #ff6600;
+  }
+  .foot-headp {
+    font-size: 17px;
+    line-height: 26px;
+    color: #a5a2a1;
+  }
+  .iconic2 {
+    width: 36px;
+    height: 36px;
+    line-height: 36px !important;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 5px;
+    background-color: white;
+    color: #ff6600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+  }
+  .iconic2:hover {
+    background-color: #ff6600;
+    color: white;
+  }
+  .foot-title1 {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: white;
+  }
+  .foot-title1p a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 26px;
+    color: #a5a2a1;
+    display: block;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+  }
+  .foot-title1p a:hover {
+    color: #ff6600;
+  }
+  .foot-email {
+    padding: 15px 50px 15px 20px;
+    border-radius: 8px;
+  }
+  .footera1 {
+    text-decoration: none;
+    color: #ff6600;
+    font-size: 17px;
+  }
+  .footera1:hover {
+    color: white;
+  }
+  .footera2 {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footera2 p {
+    font-size: 17px;
+    color: #a5a2a1;
+    cursor: pointer;
+  }
+  .footera2 p:hover {
+    color: #ff6600;
+  }
+  .vicon2 {
+    width: 70%;
+    height: 500px;
+  }
+  .vilogo {
+    height: 11px;
+    width: 84px;
+    text-align: center;
+    background-color: white;
+    border-radius: 6px 0 0 6px;
+    position: relative;
+    position: absolute;
+    bottom: 10px;
+    right: 15%;
+  }
+  .vilogo2 {
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    top: 0;
+    left: 17%;
+    cursor: pointer;
+  }
+  .volume-play {
+    display: flex;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 30%;
+    cursor: pointer;
+  }
+  .vi-con {
+    position: relative;
+  }
+  .vi-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  .vi-play i {
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 20px;
+    margin-right: 5px;
+    background-color: rgba(157, 157, 157, 0.5);
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .zoom{
+    font-size: 27px;
+    bottom: -5px;
+    right: 25%;
+    position: absolute;
+    cursor: pointer;
+   
+  }
+  .zoom i {
+    color: white;
+  }
+  .foot2{
+    width: 100px;
+    height: 320px;
+    background-color: #0d1326;
+    position: fixed;
+    bottom: 40%;
+    right: 0;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+  }
+  .container1{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .footnav{
+    
+    color:#8f95a8;
+    cursor: pointer;
+  }
+  .footnav:hover{
+    color: #e6ebff;
+  }
+  .responabout1{
+    width: 30%;
+  }
+  .responabout{
+    width: calc(70% / 3);
+  }
+  .container-video{
+    width: 80%;
+    margin: auto;
+  }
+  .footnav p {
+      font-size: 15px;
+      color:#8f95a8 ;
+  }
+  .logo{
+      display: flex;
+  }
+  @media screen and (max-width: 992px){
+    .volume-play{
+        left: 450px;
+      }
+      .zoom{
+        left: 500px;
+      }
+      .icon-team {
+        top: 60%;
+      }
+  }
+  @media screen and (max-width: 768px){
+    .logo{
+        display: block;
+    }
+    .logo a{
+        display: block;
+    }
+    .about-us-left{
+        width: 100% !important;
+    }
+    .about-us-right{
+        width: 100% !important;
+    }
+    .about-us{
+        flex-direction: column;
+    }
+    .info-restaurent-container{
+        flex-direction: column;
+    }
+    .info-restaurent-left{
+        width: 100%;
+    }
+    .info-restaurent-right{
+        width: 100%;
+       
+    }
+    .foot .container .row .col-sm-8{
+        width: 100%;
+      }
+      .foot .container .row .responfoot2{
+        width: 100% !important;
+        
+      }
+      .footera2{
+       justify-content: start;
+      }
+      .footera2 p {
+       margin-right: 10px;
+      }
+      .video .container-video{
+        width: 100%;
+        margin: 0;
+      }
+      .vi-con{
+        width: 100%;
+      }
+      .vicon2{
+        width: 100%;
+      }
+      .volume-play{
+        margin-right: 10px;
+      }
+      .zoom{
+        right: 120px;
+      }
+      .vilogo{
+        right: 0;
+      }
+  }
+  @media screen and (max-width: 576px){
+    .logo{
+        display: block;
+    }
+    .logo a{
+        display: block;
+    }
+    .about-us-left{
+        width: 100% !important;
+    }
+    .about-us-right{
+        width: 100% !important;
+    }
+    .about-us{
+        flex-direction: column;
+    }
+    .info-restaurent-container{
+        flex-direction: column;
+    }
+    .info-restaurent-left{
+        width: 100%;
+    }
+    .info-restaurent-right{
+        width: 100%;
+       
+    }
+    .foot .container .row .responfoot{
+        width: 50%;
+        padding-bottom: 50px;
+      }
+      .foot .container .row .col-sm-2{
+        width: 50%;
+      }
+      .foot .container .row .col-sm-8{
+        width: 100%;
+      }
+      .foot .container .row .responfoot2{
+        width: 100% !important;
+        
+      }
+      .footera2{
+       justify-content: start;
+      }
+      .footera2 p {
+       margin-right: 10px;
+      }
+      .video .container-video{
+        width: 100%;
+        margin: 0;
+      }
+      .vi-con{
+        width: 100%;
+      }
+      .vicon2{
+        width: 100%;
+      }
+      .volume-play{
+        left: 350px;
+      }
+      .zoom{
+        left:400px ;
+      }
+      .vilogo{
+        right: 0;
+      }
+    
+  }
